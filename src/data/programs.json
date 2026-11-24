@@ -1,0 +1,80 @@
+[
+  {
+    "id": "strength-foundations",
+    "name": "Strength Foundations",
+    "tagline": "Build the base everything else stands on",
+    "level": "Beginner",
+    "duration": "45 min",
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=900&q=80",
+    "category": "Strength",
+    "description": "A barbell-first program built around the five lifts that move the needle fastest: squat, deadlift, bench, overhead press, and row. You'll spend the first two weeks learning bar path and bracing before any weight gets heavy.",
+    "focus": ["Squat", "Deadlift", "Bench Press", "Overhead Press"],
+    "trainer": "Marcus Idris",
+    "details": "Sessions run on a 3-day split (Mon/Wed/Fri) so your joints get 48 hours to recover between heavy days. Every block ends with a deload week — this is not optional, it's where the strength actually consolidates."
+  },
+  {
+    "id": "hypertrophy-block",
+    "name": "Hypertrophy Block",
+    "tagline": "Train for size with a plan that tracks volume, not vibes",
+    "level": "Intermediate",
+    "duration": "60 min",
+    "image": "https://images.unsplash.com/photo-1571388208497-71bedc66e932?w=900&q=80",
+    "category": "Strength",
+    "description": "A push/pull/legs split designed around progressive overload. Each muscle group gets hit twice a week with a rep range built for growth (8-15 reps), and we log every working set so you can see the trend, not just feel it.",
+    "focus": ["Push", "Pull", "Legs", "Accessory work"],
+    "trainer": "Priya Nair",
+    "details": "Expect supersets and drop sets in the back half of the block once your base strength is established. Nutrition matters more here than in any other program — under-eating will cap your results regardless of how hard you train."
+  },
+  {
+    "id": "hiit-conditioning",
+    "name": "HIIT Conditioning",
+    "tagline": "Short, brutal, and over before you can talk yourself out of it",
+    "level": "All levels",
+    "duration": "30 min",
+    "image": "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=900&q=80",
+    "category": "Cardio",
+    "description": "Interval work built on a 40-seconds-on, 20-seconds-off structure across kettlebells, sleds, rowers, and bodyweight circuits. Heart rate goes up fast and stays there — this is the session people dread and then crave.",
+    "focus": ["Kettlebell", "Sled push", "Rowing", "Bodyweight circuits"],
+    "trainer": "Diego Alvarez",
+    "details": "Scaled for every level: beginners get longer rest windows and lighter loads on the same structure, so nobody is left behind and nobody is bored. Wear shoes you don't mind getting wet."
+  },
+  {
+    "id": "mobility-recovery",
+    "name": "Mobility & Recovery",
+    "tagline": "The session that lets you keep doing the other sessions",
+    "level": "All levels",
+    "duration": "40 min",
+    "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=900&q=80",
+    "category": "Recovery",
+    "description": "Slow, controlled work through end-range stretching, banded distraction, and breathing drills. This is the class people skip when they're busy and regret skipping six weeks later when something starts hurting.",
+    "focus": ["Hip mobility", "Shoulder health", "Breathwork", "Foam rolling"],
+    "trainer": "Sofia Lindqvist",
+    "details": "Best scheduled the day after your heaviest lift session. No weights heavier than a yoga block — the goal is range of motion and nervous system downshift, not another workout."
+  },
+  {
+    "id": "functional-athlete",
+    "name": "Functional Athlete",
+    "tagline": "Train movement patterns, not just muscles",
+    "level": "Intermediate",
+    "duration": "55 min",
+    "image": "https://images.unsplash.com/photo-1554344728-77cf90d9ed26?w=900&q=80",
+    "category": "Functional",
+    "description": "A mix of olympic lift derivatives, plyometrics, and carries designed for people who play a sport or just want to move better in daily life — picking up kids, moving furniture, climbing stairs without thinking about it.",
+    "focus": ["Power cleans", "Box jumps", "Farmer's carries", "Rotational work"],
+    "trainer": "Marcus Idris",
+    "details": "Technical lifts are taught with PVC pipe before any weight is added. This program has the steepest learning curve of the five — budget two to three weeks before the movements feel natural."
+  },
+  {
+    "id": "beginner-bootcamp",
+    "name": "Beginner Bootcamp",
+    "tagline": "Your first 14 days inside the gym, structured for you",
+    "level": "Beginner",
+    "duration": "40 min",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&q=80",
+    "category": "Strength",
+    "description": "If you've never trained before, this is the on-ramp. You'll learn how to rack a bar, how to brace, how to warm up properly, and how to read your own fatigue — all the unglamorous skills that prevent the early injuries that make people quit.",
+    "focus": ["Form basics", "Warm-up routines", "Equipment orientation", "Habit building"],
+    "trainer": "Priya Nair",
+    "details": "Runs for exactly two weeks before you graduate into Strength Foundations or Hypertrophy Block. No exceptions — by day 14 you'll have the basics, even if it doesn't feel that way yet."
+  }
+]

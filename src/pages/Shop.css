@@ -1,0 +1,27 @@
+.shop-hero {
+  padding-bottom: 10px;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 22px;
+}
+
+@media (max-width: 1000px) {
+  .shop-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .shop-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 460px) {
+  .shop-grid {
+    grid-template-columns: 1fr;
+  }
+}

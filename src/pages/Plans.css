@@ -1,0 +1,39 @@
+.plans-hero {
+  padding-bottom: 10px;
+}
+
+.plans-tips-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  margin-top: 36px;
+}
+
+.plans-tips-box {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  border-top: 3px solid var(--color-orange);
+}
+
+.plans-tips-box h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.plans-tips-box p {
+  font-size: 14px;
+  color: var(--color-gray-text);
+}
+
+.plans-cta {
+  background-color: var(--color-dark);
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .plans-tips-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "30-day",
+    "label": "30 Days",
+    "title": "Foundation Phase",
+    "goal": "Build the habit and learn correct movement before adding heavy load.",
+    "weeks": [
+      {
+        "week": "Week 1",
+        "focus": "Orientation & form",
+        "training": "3 sessions: full-body, light load, focus entirely on technique for squat, hinge, push, pull, carry.",
+        "diet": "Track your current intake without changing anything yet — you need a real baseline before adjusting.",
+        "milestone": "You can rack, brace, and perform each basic lift without coaching cues."
+      },
+      {
+        "week": "Week 2",
+        "focus": "Consistency",
+        "training": "4 sessions: add light load increases (5–10%), introduce the warm-up routine as a non-negotiable first step.",
+        "diet": "Set your protein target (1.6g/kg) and hit it daily — this is the single highest-leverage change available.",
+        "milestone": "Four sessions completed without a missed day."
+      },
+      {
+        "week": "Week 3",
+        "focus": "Load introduction",
+        "training": "4 sessions: progressive overload begins — small, consistent weight increases week over week.",
+        "diet": "Add a structured pre- and post-workout meal around training sessions.",
+        "milestone": "Noticeable improvement in confidence under the bar, even if the weight is still light."
+      },
+      {
+        "week": "Week 4",
+        "focus": "Deload & assess",
+        "training": "3 lighter sessions, full mobility day added. This week resets fatigue before phase two.",
+        "diet": "Review two weeks of food logs with a trainer; adjust calories based on actual progress, not guesses.",
+        "milestone": "Baseline measurements taken: weight, key lifts, progress photos, energy levels."
+      }
+    ]
+  },
+  {
+    "id": "60-day",
+    "label": "60 Days",
+    "title": "Build Phase",
+    "goal": "Increase strength and conditioning meaningfully while keeping recovery on track.",
+    "weeks": [
+      {
+        "week": "Week 5–6",
+        "focus": "Strength progression",
+        "training": "Move to a 4-day split (upper/lower/push/pull). Loads should be 10–15% heavier than your week-4 numbers.",
+        "diet": "Recalculate calories based on updated bodyweight; increase protein slightly if training volume has grown.",
+        "milestone": "First lift PR since the foundation phase — even 2.5kg counts."
+      },
+      {
+        "week": "Week 7",
+        "focus": "Conditioning layer",
+        "training": "Add one HIIT or conditioning session per week alongside strength days — this should feel hard, not comfortable.",
+        "diet": "Introduce carb cycling: higher carbs on lift days, moderate on rest days.",
+        "milestone": "Resting heart rate trending down across the week."
+      },
+      {
+        "week": "Week 8",
+        "focus": "Mid-point check-in",
+        "training": "Full assessment week: retest your major lifts, log new numbers against week 4's baseline.",
+        "diet": "Full check-in with measurements and photos compared against day 1.",
+        "milestone": "Visible technique improvement on video comparison from week 1."
+      }
+    ]
+  },
+  {
+    "id": "90-day",
+    "label": "90 Days",
+    "title": "Transformation Phase",
+    "goal": "Push toward your specific goal — strength, size, or fat loss — with a plan tuned to what's working.",
+    "weeks": [
+      {
+        "week": "Week 9–10",
+        "focus": "Specialization",
+        "training": "Split adjusts toward your specific goal: heavier/lower-rep for strength, higher volume for size, or added conditioning for fat loss.",
+        "diet": "Calories and macros tightened toward the specific goal — surplus, deficit, or recomp maintenance.",
+        "milestone": "Program now feels personalized rather than generic — adjustments are based on your own data."
+      },
+      {
+        "week": "Week 11",
+        "focus": "Peak effort block",
+        "training": "Highest-intensity block of the program. This is where most of the visible transformation happens.",
+        "diet": "Tightest adherence window — this is the two weeks where consistency matters most.",
+        "milestone": "Noticeable physical change visible in photos, not just numbers."
+      },
+      {
+        "week": "Week 12",
+        "focus": "Final assessment & next steps",
+        "training": "Deload week, full lift retest, and a session reviewing form on camera one more time.",
+        "diet": "Final measurements, full comparison against day 1, and a maintenance plan built for after day 90.",
+        "milestone": "Complete before/after comparison: strength numbers, body measurements, and a plan to keep the results."
+      }
+    ]
+  }
+]

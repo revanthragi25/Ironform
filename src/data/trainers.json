@@ -1,0 +1,38 @@
+[
+  {
+    "id": "marcus-idris",
+    "name": "Marcus Idris",
+    "role": "Head Strength Coach",
+    "image": "https://images.unsplash.com/photo-1534368420009-621bfab424a8?w=500&q=80",
+    "specialties": ["Powerlifting", "Olympic lifts", "Injury rehab"],
+    "bio": "Twelve years coaching competitive powerlifters and total beginners alike. Marcus believes the bar doesn't care about your excuses, but your joints do — every program he writes respects recovery as much as load.",
+    "certifications": ["NSCA-CSCS", "USAW Level 2"]
+  },
+  {
+    "id": "priya-nair",
+    "name": "Priya Nair",
+    "role": "Hypertrophy & Nutrition Coach",
+    "image": "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?w=500&q=80",
+    "specialties": ["Muscle building", "Macro coaching", "Beginner onboarding"],
+    "bio": "Priya pairs every training block with a nutrition plan because she's seen too many good programs fail on the kitchen side. She specializes in turning first-time gym members into confident lifters within 60 days.",
+    "certifications": ["ISSA-CPT", "Precision Nutrition L1"]
+  },
+  {
+    "id": "diego-alvarez",
+    "name": "Diego Alvarez",
+    "role": "Conditioning Coach",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&q=80",
+    "specialties": ["HIIT", "Metabolic conditioning", "Sports performance"],
+    "bio": "Former semi-pro footballer who now builds the conditioning sessions everyone complains about and then thanks him for. Diego scales every circuit so beginners and athletes train in the same room without either being short-changed.",
+    "certifications": ["ACE-CPT", "Crossfit L2"]
+  },
+  {
+    "id": "sofia-lindqvist",
+    "name": "Sofia Lindqvist",
+    "role": "Mobility & Recovery Specialist",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&q=80",
+    "specialties": ["Mobility", "Breathwork", "Injury prevention"],
+    "bio": "Sofia spent six years in physiotherapy before moving into coaching, and it shows — her recovery sessions are the reason members of this gym train into their 40s and 50s without the usual wear and tear.",
+    "certifications": ["DPT", "FRC Mobility Specialist"]
+  }
+]

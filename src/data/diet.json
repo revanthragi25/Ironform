@@ -1,0 +1,142 @@
+{
+  "principles": [
+    {
+      "id": "protein",
+      "title": "Protein first, always",
+      "icon": "drumstick",
+      "summary": "Aim for 1.6–2.2g of protein per kg of bodyweight per day.",
+      "detail": "Protein is the only macro directly tied to muscle repair. Spread it across 3–4 meals rather than one big serving — your body can only use so much at once for muscle synthesis. Good sources: chicken breast, eggs, Greek yogurt, lentils, tofu, whey isolate."
+    },
+    {
+      "id": "calories",
+      "title": "Match calories to your goal",
+      "icon": "scale",
+      "summary": "Surplus to build muscle, deficit to lose fat, maintenance to recomp.",
+      "detail": "A surplus of 200–300 calories a day supports lean muscle gain without excess fat. A deficit of 300–500 calories a day is sustainable for fat loss without losing muscle or crashing your energy. Track for two weeks before adjusting — day-to-day weight swings are mostly water."
+    },
+    {
+      "id": "carbs",
+      "title": "Carbs are fuel, not the enemy",
+      "icon": "wheat",
+      "summary": "Time your carbs around training for the best energy and recovery.",
+      "detail": "Eat the bulk of your carbs in the 3 hours before and after training. Whole sources — oats, rice, potatoes, fruit — digest predictably and refill glycogen better than processed sugar, which spikes and crashes."
+    },
+    {
+      "id": "fats",
+      "title": "Don't cut fat too low",
+      "icon": "droplet",
+      "summary": "Keep fats at 20–30% of total calories for hormone health.",
+      "detail": "Testosterone and estrogen production both depend on dietary fat. Going much below 20% of calories from fat for an extended period is linked to hormone disruption and poor recovery, even if the scale moves faster short-term."
+    },
+    {
+      "id": "hydration",
+      "title": "Hydration affects performance more than people think",
+      "icon": "droplets",
+      "summary": "A 2% drop in hydration can measurably reduce strength output.",
+      "detail": "Aim for 3–4 liters a day, more on heavy training days or in heat. If your urine is darker than pale straw, you're behind on fluids before you even start your session."
+    },
+    {
+      "id": "timing",
+      "title": "Meal timing matters less than total intake",
+      "icon": "clock",
+      "summary": "Hitting your daily totals matters more than exact meal timing.",
+      "detail": "Intermittent fasting, 6 small meals, or 3 big meals — all work if your daily protein and calorie totals are right. Pick the pattern that fits your schedule and that you can actually stick to for months, not days."
+    }
+  ],
+  "safety": [
+    {
+      "id": "no-extreme-deficit",
+      "title": "Avoid extreme calorie deficits",
+      "detail": "Cutting more than 1000 calories below maintenance risks muscle loss, fatigue, and a slowed metabolism. If a plan promises rapid fat loss in days, it's selling water weight and burnout, not real progress."
+    },
+    {
+      "id": "check-with-doctor",
+      "title": "Check with a doctor before big changes",
+      "detail": "If you have any existing condition — diabetes, heart issues, kidney concerns, or you're pregnant — talk to a physician before starting a new diet or supplement, especially anything involving fasting or high-protein intake."
+    },
+    {
+      "id": "supplement-caution",
+      "title": "Supplements support a diet, they don't replace one",
+      "detail": "No powder fixes a bad diet. Whole food should make up the large majority of your intake; supplements fill small, specific gaps — protein totals, creatine, a multivitamin if your diet is genuinely limited."
+    },
+    {
+      "id": "listen-to-your-body",
+      "title": "Fatigue and dizziness are signals, not weakness",
+      "detail": "Persistent fatigue, dizziness, hair loss, or missed periods are signs of under-eating, not signs you need to push harder. Scale back and reassess rather than pushing through."
+    },
+    {
+      "id": "hydration-safety",
+      "title": "Don't overcorrect on water either",
+      "detail": "Drinking far more water than you need, especially without electrolytes, can dilute sodium levels dangerously. More is not always better — balance is the goal, not maximum volume."
+    }
+  ],
+  "sampleMeals": [
+    {
+      "id": "breakfast",
+      "meal": "Breakfast",
+      "goal": "Muscle gain",
+      "items": ["3 whole eggs + 2 egg whites, scrambled", "1 cup rolled oats with banana", "1 tbsp peanut butter"],
+      "calories": 620,
+      "protein": "38g"
+    },
+    {
+      "id": "lunch",
+      "meal": "Lunch",
+      "goal": "Muscle gain",
+      "items": ["200g grilled chicken breast", "1.5 cups jasmine rice", "Mixed vegetables, olive oil"],
+      "calories": 700,
+      "protein": "52g"
+    },
+    {
+      "id": "pre-workout",
+      "meal": "Pre-workout snack",
+      "goal": "Energy",
+      "items": ["1 banana", "Black coffee or green tea"],
+      "calories": 140,
+      "protein": "1g"
+    },
+    {
+      "id": "post-workout",
+      "meal": "Post-workout",
+      "goal": "Recovery",
+      "items": ["1 scoop whey isolate", "1 cup blueberries", "Water"],
+      "calories": 180,
+      "protein": "25g"
+    },
+    {
+      "id": "dinner",
+      "meal": "Dinner",
+      "goal": "Recovery & satiety",
+      "items": ["180g salmon or tofu", "Roasted sweet potato", "Large green salad, olive oil dressing"],
+      "calories": 580,
+      "protein": "40g"
+    },
+    {
+      "id": "fatloss-lunch",
+      "meal": "Lunch (fat-loss version)",
+      "goal": "Fat loss",
+      "items": ["180g grilled chicken or fish", "1 cup quinoa", "Large portion steamed vegetables"],
+      "calories": 480,
+      "protein": "48g"
+    }
+  ],
+  "foodsToFavor": [
+    { "name": "Chicken breast", "why": "Lean protein with minimal fat, versatile for every meal." },
+    { "name": "Eggs", "why": "Complete protein with all essential amino acids, cheap and fast to cook." },
+    { "name": "Greek yogurt", "why": "High protein-to-calorie ratio plus gut-friendly probiotics." },
+    { "name": "Oats", "why": "Slow-digesting carbs that keep energy steady through a session." },
+    { "name": "Sweet potatoes", "why": "Complex carbs with fiber and potassium for muscle function." },
+    { "name": "Salmon", "why": "Protein plus omega-3 fats that support joint and heart health." },
+    { "name": "Leafy greens", "why": "Micronutrients and fiber with almost no calorie cost." },
+    { "name": "Almonds & walnuts", "why": "Healthy fats and protein in a portable, shelf-stable snack." },
+    { "name": "Lentils & beans", "why": "Plant protein and fiber that keeps you full for hours." },
+    { "name": "Berries", "why": "Lower-sugar fruit option, high in antioxidants." }
+  ],
+  "foodsToLimit": [
+    { "name": "Sugary drinks & soda", "why": "Large calorie load with zero nutritional return and a fast energy crash." },
+    { "name": "Deep-fried foods", "why": "High in inflammatory fats that slow recovery between sessions." },
+    { "name": "Refined white bread & pastries", "why": "Spikes blood sugar fast, leaves you hungry again within the hour." },
+    { "name": "Excess alcohol", "why": "Directly suppresses muscle protein synthesis for up to 24 hours after drinking." },
+    { "name": "Processed deli meats", "why": "High sodium and preservatives; swap for fresh-cooked lean meats where possible." }
+  ]
+}

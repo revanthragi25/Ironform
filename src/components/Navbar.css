@@ -1,0 +1,124 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: var(--color-cream);
+  border-bottom: 1px solid var(--color-border);
+  z-index: 100;
+}
+
+.navbar-inner {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.navbar-logo {
+  background-color: var(--color-dark);
+  color: var(--color-orange);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.navbar-links-desktop {
+  display: flex;
+  gap: 26px;
+}
+
+.navbar-link {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--color-gray-text);
+}
+
+.navbar-link:hover {
+  color: var(--color-orange);
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cart-button {
+  position: relative;
+  background: none;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--color-dark);
+  padding: 8px 10px;
+}
+
+.cart-count {
+  background-color: var(--color-orange);
+  color: white;
+  font-size: 11px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+}
+
+.navbar-join-btn {
+  padding: 10px 20px;
+  font-size: 13px;
+}
+
+/* The hamburger button is hidden by default on desktop screens */
+.menu-button {
+  display: none;
+  background: none;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.navbar-links-mobile {
+  display: none;
+}
+
+/* On small screens, hide the desktop links and show the hamburger button instead */
+@media (max-width: 900px) {
+  .navbar-links-desktop {
+    display: none;
+  }
+  .navbar-join-btn {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+  .navbar-links-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 16px 24px 24px;
+    border-top: 1px solid var(--color-border);
+  }
+  .navbar-link-mobile {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 6px 0;
+  }
+}

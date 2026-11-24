@@ -1,0 +1,106 @@
+.join-hero {
+  padding-bottom: 10px;
+}
+
+.plan-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 22px;
+}
+
+.plan-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 28px 24px;
+  text-align: left;
+  border: 2px solid var(--color-border);
+}
+
+.plan-card-active {
+  border-color: var(--color-orange);
+}
+
+.plan-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.plan-card-price {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  margin-bottom: 18px;
+}
+
+.plan-card ul li {
+  font-size: 13px;
+  margin-bottom: 8px;
+  padding-left: 16px;
+  position: relative;
+}
+
+.plan-card ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--color-orange);
+}
+
+.join-form-section {
+  max-width: 540px;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 26px;
+}
+
+.join-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--color-gray-text);
+}
+
+.join-form input,
+.join-form select {
+  padding: 12px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.join-form-submit {
+  margin-top: 6px;
+}
+
+.join-success {
+  text-align: center;
+}
+
+.join-success-inner {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.join-success-icon {
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--color-green-light);
+  color: var(--color-green);
+  font-size: 26px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .plan-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}

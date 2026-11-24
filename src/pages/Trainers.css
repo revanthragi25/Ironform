@@ -1,0 +1,21 @@
+.trainers-hero {
+  padding-bottom: 10px;
+}
+
+.trainers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 22px;
+}
+
+@media (max-width: 1000px) {
+  .trainers-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .trainers-grid {
+    grid-template-columns: 1fr;
+  }
+}

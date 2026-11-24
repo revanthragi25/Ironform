@@ -1,0 +1,101 @@
+[
+  {
+    "id": "whey-protein-vanilla",
+    "name": "Whey Isolate — Vanilla",
+    "category": "Supplements",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=700&q=80",
+    "rating": 4.7,
+    "reviews": 312,
+    "description": "25g of protein per scoop, under 2g of sugar, mixes clean with water or milk. This is the tub we hand out at the front desk because it actually dissolves instead of clumping at the bottom of the shaker.",
+    "tags": ["Best seller"]
+  },
+  {
+    "id": "creatine-monohydrate",
+    "name": "Creatine Monohydrate (500g)",
+    "category": "Supplements",
+    "price": 24.5,
+    "image": "https://images.unsplash.com/photo-1622485831129-893c9eb1c4f1?w=700&q=80",
+    "rating": 4.9,
+    "reviews": 540,
+    "description": "Micronized for easier mixing. 5g a day, no loading phase required, no flavor to mask — it's the single most-studied supplement in sports science and it's not close to a trend, it's just effective.",
+    "tags": ["Editor's pick"]
+  },
+  {
+    "id": "adjustable-dumbbell-set",
+    "name": "Adjustable Dumbbell Set (5–25kg)",
+    "category": "Equipment",
+    "price": 189.0,
+    "image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?w=700&q=80",
+    "rating": 4.6,
+    "reviews": 98,
+    "description": "Dial-adjustable plates so one pair of handles replaces an entire rack. Built for home training when you can't make it to the gym floor but don't want to skip the session entirely.",
+    "tags": ["Home gym"]
+  },
+  {
+    "id": "resistance-band-kit",
+    "name": "Resistance Band Kit (5-piece)",
+    "category": "Equipment",
+    "price": 22.0,
+    "image": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=700&q=80",
+    "rating": 4.5,
+    "reviews": 211,
+    "description": "Five resistance levels from light warm-up bands to heavy assisted-pull-up strength. Packs into a bag smaller than a water bottle — the only equipment excuse this removes is 'I was traveling.'",
+    "tags": []
+  },
+  {
+    "id": "lifting-belt",
+    "name": "Leather Lifting Belt",
+    "category": "Apparel",
+    "price": 54.0,
+    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=700&q=80",
+    "rating": 4.8,
+    "reviews": 167,
+    "description": "4-inch single-prong belt for squats and deadlifts above 80% of your max. It doesn't protect your spine by magic — it gives you something to brace against, which is a completely different job and an important one.",
+    "tags": ["Strength essential"]
+  },
+  {
+    "id": "training-shoes",
+    "name": "Cross-Training Shoes",
+    "category": "Apparel",
+    "price": 95.0,
+    "image": "https://images.unsplash.com/photo-1517260911058-2cc8ae9bf3eb?w=700&q=80",
+    "rating": 4.4,
+    "reviews": 132,
+    "description": "Flat, stable sole for lifting days, enough flex for the HIIT circuits. Not a running shoe — if your only goal is distance running, this is the wrong pair, and we'll tell you that at the counter too.",
+    "tags": []
+  },
+  {
+    "id": "shaker-bottle",
+    "name": "Insulated Shaker Bottle",
+    "category": "Accessories",
+    "price": 14.0,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=700&q=80",
+    "rating": 4.3,
+    "reviews": 89,
+    "description": "Double-walled, keeps a shake cold through a 90-minute session, wire whisk ball included so you don't get the powder clumps everyone complains about with cheaper bottles.",
+    "tags": []
+  },
+  {
+    "id": "foam-roller",
+    "name": "High-Density Foam Roller",
+    "category": "Recovery",
+    "price": 28.0,
+    "image": "https://images.unsplash.com/photo-1620188467120-5042ed1eb5da?w=700&q=80",
+    "rating": 4.6,
+    "reviews": 145,
+    "description": "Dense enough to hold its shape under real bodyweight pressure on the IT band and quads. Pairs with the Mobility & Recovery class — bring your own, the studio set runs out fast on busy nights.",
+    "tags": []
+  },
+  {
+    "id": "bcaa-fruit-punch",
+    "name": "BCAA Powder — Fruit Punch",
+    "category": "Supplements",
+    "price": 29.0,
+    "image": "https://images.unsplash.com/photo-1579722820930-2bd61cb1fa6c?w=700&q=80",
+    "rating": 4.2,
+    "reviews": 76,
+    "description": "Useful for long fasted-training sessions where you want to limit muscle breakdown without breaking a fast with full calories. Not a replacement for total daily protein — that still has to come from real food.",
+    "tags": []
+  }
+]

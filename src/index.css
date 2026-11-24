@@ -1,0 +1,195 @@
+/*
+  GLOBAL STYLES
+  -------------
+  This file holds:
+  1. A few "theme colors" stored as CSS variables (so we only have to
+     change a color in ONE place if we ever want to redesign the site).
+  2. Basic resets (removing default browser margins, etc.)
+  3. Small reusable classes like .btn and .container that many
+     components/pages use over and over again.
+
+  Every page/component also has its OWN css file for things that are
+  specific to just that one page or component.
+*/
+
+/* Import two Google Fonts: one bold font for headings, one normal font for body text */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Main colors used across the whole site */
+  --color-dark: #14181c;       /* near-black, used for header/footer background */
+  --color-cream: #f4f1ea;      /* warm off-white, the main page background */
+  --color-cream-light: #fffdf9;
+  --color-orange: #ff5a2c;     /* main "action" color (buttons, highlights) for training */
+  --color-orange-dark: #db4419;
+  --color-green: #6f7f4f;      /* main color used for diet/nutrition sections */
+  --color-green-light: #eef1e3;
+  --color-gray-text: #5b6066;  /* color for paragraph text that isn't pure black */
+  --color-border: #e1ddd2;     /* light border color used in cards/boxes */
+}
+
+/* Reset some default browser spacing so our own CSS controls it */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-cream);
+  color: #14181c;
+  line-height: 1.6;
+}
+
+/* All headings use the bold display font and are uppercase by default */
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.15;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* A simple wrapper that centers page content and limits how wide it gets */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* A reusable spacing wrapper for page sections */
+.section {
+  padding: 80px 0;
+}
+
+/* ---------- Buttons ---------- */
+/* We have a few button "looks" that get reused everywhere. */
+
+.btn {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 14px 28px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.btn-orange {
+  background-color: var(--color-orange);
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: var(--color-orange-dark);
+}
+
+.btn-dark {
+  background-color: var(--color-dark);
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: #2a2f35;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--color-dark);
+  border: 2px solid var(--color-dark);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-dark);
+  color: white;
+}
+
+.btn-green {
+  background-color: var(--color-green);
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #5b6940;
+}
+
+/* ---------- Small text labels ---------- */
+
+.eyebrow {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--color-orange);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.eyebrow-green {
+  color: var(--color-green);
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.section-text {
+  font-size: 16px;
+  color: var(--color-gray-text);
+  max-width: 560px;
+}
+
+/* A little pill-shaped tag, used for labels like "Beginner" or "Best seller" */
+.tag {
+  display: inline-block;
+  background-color: var(--color-dark);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.tag-green {
+  background-color: var(--color-green);
+}
+
+/* A basic white card used as the base look for many cards across the site */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .section {
+    padding: 56px 0;
+  }
+  .section-title {
+    font-size: 28px;
+  }
+}

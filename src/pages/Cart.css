@@ -1,0 +1,183 @@
+.cart-page-hero {
+  padding-bottom: 10px;
+}
+
+.cart-page-empty {
+  text-align: center;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  color: var(--color-gray-text);
+}
+
+.cart-page-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 40px;
+}
+
+.cart-page-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cart-page-row {
+  display: grid;
+  grid-template-columns: 70px 1fr auto auto auto;
+  align-items: center;
+  gap: 18px;
+  background-color: white;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.cart-page-row img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.cart-page-row-info h3 {
+  font-size: 15px;
+  text-transform: none;
+  margin-bottom: 4px;
+}
+
+.cart-page-row-price {
+  font-size: 13px;
+  color: var(--color-gray-text);
+}
+
+/* Reuse the same look as the stepper buttons in the cart sidebar */
+.cart-qty-stepper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-qty-button {
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  background-color: var(--color-cream);
+  border: 1px solid var(--color-border);
+  font-size: 16px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-qty-button:hover {
+  background-color: var(--color-border);
+}
+
+.cart-qty-number {
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 18px;
+  text-align: center;
+}
+
+.cart-page-row-subtotal {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  min-width: 70px;
+  text-align: right;
+}
+
+.cart-remove-button {
+  background: none;
+  font-size: 12px;
+  color: var(--color-orange);
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.cart-page-summary {
+  background-color: white;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 24px;
+  align-self: start;
+}
+
+.cart-page-summary h3 {
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.cart-page-summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: var(--color-gray-text);
+  margin-bottom: 12px;
+}
+
+.cart-page-summary-total {
+  font-size: 17px;
+  font-weight: 700;
+  color: #14181c;
+  border-top: 1px solid var(--color-border);
+  padding-top: 12px;
+  margin-top: 6px;
+}
+
+.cart-page-checkout-btn {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 16px;
+}
+
+.cart-page-continue-link {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: var(--color-gray-text);
+  margin-top: 14px;
+}
+
+.cart-page-continue-link:hover {
+  color: var(--color-orange);
+}
+
+@media (max-width: 900px) {
+  .cart-page-grid {
+    grid-template-columns: 1fr;
+  }
+  .cart-page-row {
+    grid-template-columns: 60px 1fr;
+    grid-template-areas:
+      "image info"
+      "stepper stepper"
+      "subtotal remove";
+    row-gap: 12px;
+  }
+  .cart-page-row img {
+    grid-area: image;
+    width: 60px;
+    height: 60px;
+  }
+  .cart-page-row-info {
+    grid-area: info;
+  }
+  .cart-qty-stepper {
+    grid-area: stepper;
+  }
+  .cart-page-row-subtotal {
+    grid-area: subtotal;
+    text-align: left;
+  }
+  .cart-remove-button {
+    grid-area: remove;
+    text-align: right;
+  }
+}

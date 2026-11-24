@@ -1,0 +1,34 @@
+[
+  {
+    "id": "t1",
+    "name": "Ananya Reddy",
+    "result": "Lost 9kg in 90 days",
+    "quote": "I'd tried diets before that left me starving by 3pm. Following the meal timing here instead of cutting blindly is the only thing that's ever stuck past a month for me.",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&q=80",
+    "program": "90-day Transformation Phase"
+  },
+  {
+    "id": "t2",
+    "name": "Rohan Mehta",
+    "result": "Added 25kg to his deadlift",
+    "quote": "Started in Beginner Bootcamp two months ago not knowing how to brace properly. The form-first approach felt slow at first but it's the reason I haven't gotten hurt once.",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=80",
+    "program": "Strength Foundations"
+  },
+  {
+    "id": "t3",
+    "name": "Lena Cooper",
+    "result": "Completed her first pull-up at 90 days",
+    "quote": "I came in after years away from any kind of training. The 30-day plan didn't push me into anything heavy too fast, which is exactly what kept me coming back.",
+    "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=300&q=80",
+    "program": "Beginner Bootcamp"
+  },
+  {
+    "id": "t4",
+    "name": "Kwame Boateng",
+    "result": "Gained 6kg of lean mass",
+    "quote": "Every other plan I'd tried ignored food entirely. Having a real meal structure next to the workout plan is what actually moved the number on the scale this time.",
+    "image": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?w=300&q=80",
+    "program": "Hypertrophy Block"
+  }
+]
